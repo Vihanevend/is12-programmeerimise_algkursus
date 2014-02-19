@@ -23,7 +23,9 @@ def eemalda():
 	del filmid[number]
 
 print "Algne andmebaas:"
-		
+print
+print "Nimi | Zanr | Aasta
+
 def naita():
 	for element in filmid:
 		print element
