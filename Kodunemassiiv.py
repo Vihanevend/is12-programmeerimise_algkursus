@@ -6,7 +6,8 @@ filmid = [
 ['Forgetting Sarah Marshall', 'huumor', '2008'],
 ['Get Him to the Creek', 'huumor', '2010'],
 ['Titanic', 'kurb', '1992'],
-['Avatar', 'ulme', '2011']
+['Avatar', 'ulme', '2011'],
+['HDAigari seiklused', 'draama', '2014']
 ]
 
 def lisa():
@@ -35,9 +36,12 @@ while True:
 	
 	if valik == 'add':
 		lisa()
-	if valik == 'ls':
+	elif valik == 'ls':
 		naita()
-	if valik == 'rm':
+	elif valik == 'rm':
 		eemalda()
-	if valik == 'q':
+	elif valik == 'q':
+		print "Jällenägemiseni!"
 		break
+	else:
+		print "Vigane valik, proovige uuesti."
